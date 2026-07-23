@@ -1,0 +1,62 @@
+<hmtl lang="es">
+<head>
+<title> Inscripcion a equipo | 8vo Ciclo sistemas </title>
+
+<style>
+main{
+background: red;
+}
+main{
+background: white;
+}
+
+form{
+
+display: flex;
+gap: 16px;
+flex-direction:reverse-column;
+}
+
+</style>
+
+</head>
+<body>
+
+<body bgcolor="FFE9E6">
+<main>
+<h1> INSCRIPCION A EQUIPO 02-2026<h1>
+<form> <autocomplete="off">
+
+<!--Carnet-->
+</div> <label for="studentId">carne estudiante</label>
+<input type="text" id="studentId" required/></div>
+
+<!--Nombre-->
+<div><label for="studentNombre">carne estudiante</label>
+<input type="text" id="studentNombre" required/></div>
+
+<!--nacimiento-->
+</div><label for="studentDate">anio nacimiento </label>
+<input type="date" id="studentDate" required max="2010-07-23" /></div>
+
+<!-- Nombre del equipo-->
+<div><label for="GroupName">Nombre del Equipo</label>
+<input type="text" id="GroupName" required/></div>
+
+<!-- Seleccionar equipo-->
+<div><label for="SelectTeamId">Seleccione su equipo</label>
+
+<select id="SelectTeamId">
+<option value="1">FC Barcelona</option>
+<option value="2">Real Madrid zona 18</option>
+<option value="3">Portales</option></div>
+</select> 
+
+<br>
+<div><input type="submit" value="Enviar"/></div>
+
+</form>
+</main>
+
+</body>
+</html>
